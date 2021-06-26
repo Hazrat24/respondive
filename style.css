@@ -1,0 +1,261 @@
+/* =====================================================
+    Startup CSS
+========================================================*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.clear_fix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* =====================================================
+    Header Section CSS
+========================================================*/
+
+#header_section {
+    background: #3498db;
+}
+
+#header_section .header_left_logo {
+    float: left;
+    width: 30%;
+}
+
+#header_section .header_right_menu {
+    float: right;
+    width: 70%;
+}
+
+#header_section .header_left_logo img {
+    width: 200px;
+}
+
+#header_section .header_right_menu ul {
+    text-align: right;
+    list-style: none;
+}
+
+#header_section .header_right_menu ul li {
+    display: inline-block;
+    margin-left: -5px;
+}
+
+#header_section .header_right_menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 27px;
+    border-right: 1px solid #fff;
+    line-height: 50px;
+    transition: .5s;
+}
+
+#header_section .header_right_menu ul li a:hover {
+    background: #2980b9;
+}
+
+#header_section .header_right_menu ul li:first-child a {
+    border-left: 1px solid #fff;
+}
+
+/* =====================================================
+    Banner Section CSS
+========================================================*/
+
+#banner_section {
+    background: url(https://i.ibb.co/XCr8pMP/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 220px 0;
+}
+
+#banner_section .banner_content {
+    text-align: center;
+}
+
+#banner_section .banner_content h1 {
+    background: rgba(0, 0, 0, .4);
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#banner_section .banner_content h2 {
+    background: rgba(52, 152, 219, .4);
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+/* =====================================================
+    About Section CSS
+========================================================*/
+
+#about_section {
+    padding: 50px 0;
+}
+
+#about_section .about_content {
+    text-align: center;
+}
+
+#about_section .about_content h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+#about_section .about_content p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+/* =====================================================
+    Service Section CSS
+========================================================*/
+
+#service_section {
+    padding: 50px 0;
+    background: #fff;
+}
+
+#service_section .service_card {
+    float: left;
+    width: 31.3%;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#service_section .service_card span i {
+    display: block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    background: #3498db;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 30px;
+    border-radius: 20px 0 20px 0;
+}
+
+#service_section .service_card h3 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+#service_section .service_card p {
+    font-size: 15px;
+}
+
+/* =====================================================
+    Blog Section CSS
+========================================================*/
+
+#blog_section {
+    padding: 50px 0;
+    background: #fff;
+}
+
+#blog_section .blog_left_item {
+    float: left;
+    width: 70%;
+}
+
+#blog_section .blog_right_item {
+    float: right;
+    width: 25%;
+}
+
+#blog_section .blog_left_item .blog_post img {
+    float: left;
+    width: 200px;
+    margin-right: 15px;
+}
+
+#blog_section .blog_left_item .blog_post p {
+    margin-bottom: 30px;
+}
+
+#blog_section .blog_right_item h2{
+    font-size: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#blog_section .blog_right_item ul {
+    list-style: none;
+}
+
+#blog_section .blog_right_item ul li {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* =====================================================
+    Footer Section CSS
+========================================================*/
+
+#footer_section {
+    padding: 20px 0;
+    background: #1c2b38;
+}
+
+#footer_section .footer_left {
+    float: left;
+    width: 40%;
+}
+
+#footer_section .footer_right {
+    float: right;
+    width: 60%;
+}
+
+#footer_section .footer_left p {
+    color: #fff;
+    font-size: 20px;
+}
+
+#footer_section .footer_right ul {
+    text-align: right;
+}
+
+#footer_section .footer_right ul li {
+    display: inline-block;
+}
+#footer_section .footer_right ul li a {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    padding: 0 20px;
+}
